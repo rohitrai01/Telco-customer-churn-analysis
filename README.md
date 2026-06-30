@@ -1,9 +1,11 @@
 Telco Customer Churn Analysis
+
 This project delves into the Telco Customer Churn dataset to identify the key factors that lead to customer attrition. Through a detailed exploratory data analysis (EDA), we uncover significant patterns and trends that influence a customer's decision to leave the service.
 
 The goal of this analysis is to provide actionable insights that can help improve customer retention strategies and reduce churn rates.
 
 📁 Project Overview
+
 Customer churn is a critical metric for any service-based business. This analysis uses the IBM Telco Customer Churn dataset to visualize and understand the relationship between customer demographics, service usage, account details, and churn.
 
 Key areas of exploration include:
@@ -17,6 +19,7 @@ Data Visualization: Creating clear and insightful visualizations using Matplotli
 Insight Generation: Summarizing the most important factors that appear to drive customer churn.
 
 📊 Key Findings
+
 The analysis reveals several critical factors associated with customer churn:
 
 1. Contract Type is Crucial
@@ -41,6 +44,7 @@ Paperless Billing: Customers using paperless billing have a higher churn rate, w
 Customers using Electronic check have a much higher churn rate compared to those using other payment methods like Credit card, Bank transfer, or Mailed check. This might be an early warning sign or a preference that could be addressed.
 
 🛠️ Tools & Technologies
+
 Python 3.11.5
 
 Pandas: For data manipulation and analysis.
@@ -52,6 +56,7 @@ Matplotlib: For creating static, animated, and interactive visualizations.
 Seaborn: For statistical data visualization based on Matplotlib.
 
 📂 Dataset
+
 The dataset, Telco-Customer-Churn-raw_data.csv, includes customer details from a telecommunications company. It contains information about:
 
 Demographics: Gender, SeniorCitizen, Partner, Dependents.
@@ -61,6 +66,7 @@ Customer Account: Tenure, Contract, PaperlessBilling, PaymentMethod, MonthlyChar
 Services Subscribed: PhoneService, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies.
 
 📝 Conclusion
+
 This analysis provides a data-driven foundation for understanding customer churn. The key takeaway is the high risk associated with:
 
 Short-term contracts
