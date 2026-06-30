@@ -23,17 +23,21 @@ Insight Generation: Summarizing the most important factors that appear to drive 
 The analysis reveals several critical factors associated with customer churn:
 
 1. Contract Type is Crucial
+
 Customers on a Month-to-month contract are significantly more likely to churn compared to those with One year or Two year contracts. This suggests that longer-term commitments foster customer loyalty.
 
 2. Tenure is a Strong Predictor
+
 A high churn rate is observed among customers with a very short tenure (1-2 months). Conversely, customers who have been with the company for many years are much more loyal and less likely to leave. The longer a customer stays, the more valuable they become.
 
 3. Service Add-Ons and Internet Service Matter
+   
 Internet Service: Customers using Fiber optic internet have a higher churn rate than those using DSL.
 
 Tech Support & Online Security: Customers without these additional services are far more likely to churn than those who have them. This highlights the importance of security and support features in customer retention.
 
 4. Demographic Factors Show Nuance
+   
 Senior Citizens: This demographic shows a significantly higher churn rate compared to non-senior citizens, indicating a specific target group for retention efforts.
 
 Gender: There is no significant difference in churn rates between male and female customers.
@@ -41,6 +45,7 @@ Gender: There is no significant difference in churn rates between male and femal
 Paperless Billing: Customers using paperless billing have a higher churn rate, which could suggest a need for better communication via digital channels.
 
 5. Payment Method is an Indicator
+
 Customers using Electronic check have a much higher churn rate compared to those using other payment methods like Credit card, Bank transfer, or Mailed check. This might be an early warning sign or a preference that could be addressed.
 
 🛠️ Tools & Technologies
@@ -69,14 +74,14 @@ Services Subscribed: PhoneService, MultipleLines, InternetService, OnlineSecurit
 
 This analysis provides a data-driven foundation for understanding customer churn. The key takeaway is the high risk associated with:
 
-Short-term contracts
+- Short-term contracts
 
-Low tenure
+- Low tenure
 
-The absence of security and support services
+- The absence of security and support services
 
-Fiber optic internet
+- Fiber optic internet
 
-Electronic check payments
+- Electronic check payments
 
 By focusing retention strategies on these areas, a company can effectively reduce its churn rate and build a more loyal customer base.
